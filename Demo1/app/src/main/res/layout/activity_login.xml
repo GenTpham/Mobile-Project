@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+    <ImageButton
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp">
+    </ImageButton>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="306dp"
+        android:layout_height="431dp"
+        android:layout_gravity="center"
+        android:layout_margin="150dp"
+        app:cardBackgroundColor="@color/gray"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="40sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="90dp"
+            android:textStyle="bold"
+            android:textColor="@color/white">
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:hint="Tài khoản">
+        </EditText>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@color/white"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            >
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="320dp"
+            android:backgroundTint="@color/blue"
+            android:gravity="center"
+            android:text="Đăng nhập"
+            android:textSize="10sp">
+
+        </Button>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

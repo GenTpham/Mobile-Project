@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dd"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp">
+
+        <ImageButton
+            android:id="@+id/imgUser"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/user1"
+            android:layout_marginTop="5dp">
+        </ImageButton>
+
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="Tất cả">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="Nhạc">
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/gray"
+            android:text="PodCast">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" Bray"
+                android:drawableLeft="@drawable/bray"
+                android:textColor="@color/white"
+                android:background="@color/gray"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" MCK"
+                android:drawableLeft="@drawable/mck"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" Binz"
+                android:drawableLeft="@drawable/binz"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" Mono"
+                android:drawableLeft="@drawable/mono"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" MTP"
+                android:drawableLeft="@drawable/sontung"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" Wren"
+                android:drawableLeft="@drawable/wren"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" Obito"
+                android:drawableLeft="@drawable/obito"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text=" LowG"
+                android:drawableLeft="@drawable/lowg"
+                android:background="@color/gray"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuyển tập hàng đầu của bạn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wren2"
+                android:layout_marginTop="10dp">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuyển tập của Wren Evan"
+                    android:textColor="@color/white">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/obito1"
+                android:layout_marginTop="10dp">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuyển tập của Obito"
+                    android:textColor="@color/white">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lowg1"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuyển tập của LowG"
+                    android:textColor="@color/white">
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tuyển lựa cho bạn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/blue">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="126dp"
+                android:drawableTop="@drawable/lowg1"
+                android:text="keshi"
+                android:padding="5dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RnB"
+                android:textSize="10sp"
+                android:padding="5dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="@color/gray">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danh sách phát"
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This Is keshi"
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This is keshi. Các bản nhạc bạn nên nghe, tất cả trong một danh sách phát."
+                android:textSize="12sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/white">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/add"
+                    android:layout_marginLeft="20dp"
+                    android:background="@color/gray"
+                    android:layout_marginTop="10dp">
+                </ImageButton>
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/play"
+                    android:background="@color/gray"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="10dp">
+                </ImageButton>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
